@@ -1,9 +1,127 @@
 This is myfirst file:
 
-Para instalar GIT:
+***************************************************
 
-https://www.youtube.com/watch?v=J_Clau1bYco
 
-Comandos MIN:
-cd
-cd/
+Binario@DESKTOP-VUKMBCU MINGW64 ~
+$ cd
+
+Binario@DESKTOP-VUKMBCU MINGW64 ~
+$ cd /d
+
+Binario@DESKTOP-VUKMBCU MINGW64 /d
+$ ls
+'$RECYCLE.BIN'/          Git/             'System Volume Information'/
+ Binario/                MapData/          WindowsApps/
+ DeliveryOptimization/  'Program Files'/
+
+Binario@DESKTOP-VUKMBCU MINGW64 /d
+$ cd Git/
+
+Binario@DESKTOP-VUKMBCU MINGW64 /d/Git
+$ ls
+
+Binario@DESKTOP-VUKMBCU MINGW64 /d/Git
+$ git config --global user.name "ClaudiaZam"
+
+Binario@DESKTOP-VUKMBCU MINGW64 /d/Git
+$ git config --global user.email 1080357@alumno.um.edu.mx
+
+Binario@DESKTOP-VUKMBCU MINGW64 /d/Git
+$ git clone https://github.com/ClaudiaZam/TestGit.git
+Cloning into 'TestGit'...
+remote: Counting objects: 3, done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), done.
+
+Binario@DESKTOP-VUKMBCU MINGW64 /d/Git
+$ ls
+TestGit/
+
+Binario@DESKTOP-VUKMBCU MINGW64 /d/Git
+$
+
+Binario@DESKTOP-VUKMBCU MINGW64 /d/Git
+$ cd TestGit/
+
+Binario@DESKTOP-VUKMBCU MINGW64 /d/Git/TestGit (master)
+$ ls
+README.md
+
+Binario@DESKTOP-VUKMBCU MINGW64 /d/Git/TestGit (master)
+$ ls
+README.md  test.txt.txt
+
+Binario@DESKTOP-VUKMBCU MINGW64 /d/Git/TestGit (master)
+$ ls
+README.md  test.txt
+
+Binario@DESKTOP-VUKMBCU MINGW64 /d/Git/TestGit (master)
+$ git add test.txt
+
+Binario@DESKTOP-VUKMBCU MINGW64 /d/Git/TestGit (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        new file:   test.txt
+
+
+Binario@DESKTOP-VUKMBCU MINGW64 /d/Git/TestGit (master)
+$ git commit -m "first commit" test.txt
+[master 38557bf] first commit
+ 1 file changed, 1 insertion(+)
+ create mode 100644 test.txt
+
+Binario@DESKTOP-VUKMBCU MINGW64 /d/Git/TestGit (master)
+$ git push -u origin master
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 297 bytes | 297.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/ClaudiaZam/TestGit.git
+   8a0dfa5..38557bf  master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+Binario@DESKTOP-VUKMBCU MINGW64 /d/Git/TestGit (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+Binario@DESKTOP-VUKMBCU MINGW64 /d/Git/TestGit (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   test.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Binario@DESKTOP-VUKMBCU MINGW64 /d/Git/TestGit (master)
+$ git commit -m "segundo modificado, agregando instrucciones" test.txt
+[master 2452137] segundo modificado, agregando instrucciones
+ 1 file changed, 9 insertions(+), 1 deletion(-)
+
+Binario@DESKTOP-VUKMBCU MINGW64 /d/Git/TestGit (master)
+$ git push -u origin master
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 407 bytes | 407.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/ClaudiaZam/TestGit.git
+   38557bf..2452137  master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+Binario@DESKTOP-VUKMBCU MINGW64 /d/Git/TestGit (master)
+$
