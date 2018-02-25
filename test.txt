@@ -1,1 +1,9 @@
-This is myfirst file
+This is myfirst file:
+
+Para instalar GIT:
+
+https://www.youtube.com/watch?v=J_Clau1bYco
+
+Comandos MIN:
+cd
+cd/
